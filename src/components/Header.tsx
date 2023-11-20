@@ -292,32 +292,32 @@ export default function Header() {
 													</Col>
 													<Col className="d-flex flex-column">
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Áo Khoác
 														</Navbar.Brand>
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Áo Blazer & Vest
 														</Navbar.Brand>
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Áo Kiểu
 														</Navbar.Brand>
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Quần Jeans
 														</Navbar.Brand>
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Quần Sort
 														</Navbar.Brand>
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Giày dép
 														</Navbar.Brand>
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Áo Len
 														</Navbar.Brand>
 														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
-															Váy Đầm
+															Sản Phẩm Bigsize
 														</Navbar.Brand>
-														<Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
+														{/* <Navbar.Brand href="#" className="mb-1 top-menu-item fw-bold">
 															Váy Đầm
-														</Navbar.Brand>
+														</Navbar.Brand> */}
 													</Col>
 												</Row>
 											</Col>
@@ -349,72 +349,72 @@ export default function Header() {
 												<Row lg={3}>
 													<Col className="d-flex flex-column">
 														<Navbar.Brand href="#" className="top-menu-item fw-bold-2">
-															Váy Đầm
+															BST Len Collection
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															Nụ Cười Tròn Collection
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															Glow Collection
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															September Collection
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															BST June Collection
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															Deal Sốc
 														</Navbar.Brand>
-														<Navbar.Brand
+														{/* <Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
 															Váy Đầm
-														</Navbar.Brand>
+														</Navbar.Brand> */}
 													</Col>
 													<Col className="d-flex flex-column">
 														<Navbar.Brand href="#" className="top-menu-item fw-bold-2">
-															Váy Đầm
+															Deal Sốc
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															BST Công Sở Hạnh Phúc
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															BST Khúc Giao Mùa
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															Món Quà Sứ Giả Hạnh Phúc
 														</Navbar.Brand>
 														<Navbar.Brand
 															href="#"
 															className="mt-2 top-menu-item fw-bold-2"
 														>
-															Váy Đầm
+															BST Sứ Giả Hạnh Phúc
 														</Navbar.Brand>
 													</Col>
 													<Col sm={8} className="d-flex flex-column">
@@ -505,7 +505,8 @@ export default function Header() {
 							</Col>
 							<Col md="auto">
 								<Navbar.Brand href="#">
-									<BsHeart />
+									<BsHeart/>
+							
 								</Navbar.Brand>
 							</Col>
 							<Col md="auto">

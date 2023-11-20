@@ -257,7 +257,7 @@ export default function Main() {
 						<Card border="info">
 							<Card.Body className="d-flex flex-column justify-content-center align-items-center slick-slide">
 								<Card.Img style={{ width: "13%" }} src="../image/shirt.png" />
-								<Card.Text className="fw-lighter">Áo Sơ Mi Họa Tiết</Card.Text>
+								<Card.Text className="fw-lighter">Áo Sơ Mi Tay Dài</Card.Text>
 							</Card.Body>
 						</Card>
 					</Col>
@@ -265,7 +265,7 @@ export default function Main() {
 						<Card border="info">
 							<Card.Body className="d-flex flex-column justify-content-center align-items-center slick-slide">
 								<Card.Img style={{ width: "13%" }} src="../image/shirt.png" />
-								<Card.Text className="fw-lighter">Áo Sơ Mi Họa Tiết</Card.Text>
+								<Card.Text className="fw-lighter">Áo Sơ Mi Tay Ngắn</Card.Text>
 							</Card.Body>
 						</Card>
 					</Col>
@@ -273,7 +273,7 @@ export default function Main() {
 						<Card border="info">
 							<Card.Body className="d-flex flex-column justify-content-center align-items-center slick-slide">
 								<Card.Img style={{ width: "13%" }} src="../image/shirt.png" />
-								<Card.Text className="fw-lighter">Áo Sơ Mi Họa Tiết</Card.Text>
+								<Card.Text className="fw-lighter">Áo Sơ Mi Kiểu</Card.Text>
 							</Card.Body>
 						</Card>
 					</Col>
@@ -281,7 +281,7 @@ export default function Main() {
 						<Card border="info">
 							<Card.Body className="d-flex flex-column justify-content-center align-items-center slick-slide">
 								<Card.Img style={{ width: "13%" }} src="../image/shirt.png" />
-								<Card.Text className="fw-lighter">Áo Sơ Mi Họa Tiết</Card.Text>
+								<Card.Text className="fw-lighter">Áo Sơ Mi Cổ Vest</Card.Text>
 							</Card.Body>
 						</Card>
 					</Col>
@@ -335,6 +335,33 @@ export default function Main() {
 						priceDiscount="445.500 đ"
 					/>
 					<ImageItem
+						url1="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/AD08005/3-TRANG-AD08005.jpg"
+						url1Change="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/AD08005/2-TRANG-AD08005.jpg"
+						url2="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/VD10060/MAU-TRANG-VD10060.png"
+						name1="Áo sơ mi nẹp nút"
+						name2="AD08005"
+						price="375.000 đ"
+						priceDiscount="199.000 đ"
+					/>
+					<ImageItem
+						url1="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/QD09039/2-DEN-QD09039.jpg"
+						url1Change="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/QD09039/3-DEN-QD09039.jpg"
+						url2="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/AD10020/MAU-HONG-AD10020.png"
+						name1="Quần tây cơ bản túi xéo"
+						name2="QD09039"
+						price="385.000 đ"
+						priceDiscount="259.000 đ"
+					/>
+					<ImageItem
+						url1="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/LQD1102/2-DEN-LQD1102.jpg"
+						url1Change="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/LQD1102/3-DEN-LQD1102.jpg"
+						url2="https://js0fpsb45jobj.vcdn.cloud/storage/upload/media/gumac/AD10030/MAU-BE-AD10030.png"
+						name1="Quần tây cơ bản"
+						name2="LQD1102"
+						price="430.000 đ"
+						priceDiscount="279.000 đ"
+					/>
+					{/* <ImageItem
 						url1="../image/0-HONG-VD10049.png"
 						url1Change="../image/1-HONG-VD10049.png"
 						url2="../image/MAU-HONG-VD10049.png"
@@ -441,34 +468,7 @@ export default function Main() {
 						name2="VD10049"
 						price="495.000 đ"
 						priceDiscount="445.500 đ"
-					/>
-					<ImageItem
-						url1="../image/0-HONG-VD10049.png"
-						url1Change="../image/1-HONG-VD10049.png"
-						url2="../image/MAU-HONG-VD10049.png"
-						name1="Chân váy bút chì kiểu"
-						name2="VD10049"
-						price="495.000 đ"
-						priceDiscount="445.500 đ"
-					/>
-					<ImageItem
-						url1="../image/0-HONG-VD10049.png"
-						url1Change="../image/1-HONG-VD10049.png"
-						url2="../image/MAU-HONG-VD10049.png"
-						name1="Chân váy bút chì kiểu"
-						name2="VD10049"
-						price="495.000 đ"
-						priceDiscount="445.500 đ"
-					/>
-					<ImageItem
-						url1="../image/0-HONG-VD10049.png"
-						url1Change="../image/1-HONG-VD10049.png"
-						url2="../image/MAU-HONG-VD10049.png"
-						name1="Chân váy bút chì kiểu"
-						name2="VD10049"
-						price="495.000 đ"
-						priceDiscount="445.500 đ"
-					/>
+					/> */}
 				</Row>
 			</Container>
 			<Container className="mt-3" style={{ marginBottom: "3rem" }}>

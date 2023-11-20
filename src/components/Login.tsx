@@ -19,7 +19,7 @@ const Login: React.FC = () => {
 									<span style={{ color: "#00aeef", cursor: "pointer" }}>Đăng ký ngay</span>
 								</Form.Text>
 								<br />
-								<Form.Label className="text-muted mt-4">Email/Số điện thoại</Form.Label>
+								<Form.Label className="text-muted mt-4">Email/Số điện thoại</Form.Label>			
 								<Form.Control className="rounded-pill" type="text" />
 							</Form.Group>
 
